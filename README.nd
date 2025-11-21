@@ -1,0 +1,22 @@
+# 🏨 **Hotel Clustering & Data Analysis System**
+
+This project focuses on analyzing hotel data from Booking.com and performing clustering to segment hotels based on key features such as ratings, price, and number of reviews. The main goal is to provide actionable insights for hotel marketing, customer decision-making, and business strategy optimization.
+
+## 🔍 **Features**
+
+- 🧹 **Data Crawling & Preprocessing:** Scrapes hotel information using Python and Playwright, cleans and normalizes data, handles missing values and duplicates, and engineers key features for analysis.  
+- 📊 **Clustering Analysis:** Uses K-Means to segment hotels into distinct clusters (popular/high-quality vs. budget-friendly), improving business insights.  
+- 🤖 **Database Management:** Stores data in Azure SQL, implements backup strategies and access control for Admin, Data Engineer, and Data Analyst roles.  
+- 📈 **Data Visualization:** Builds interactive dashboards with Python (Streamlit, Matplotlib, Seaborn, Plotly) and Power BI to visualize hotel distribution, pricing trends, ratings, and correlations
+
+## 🛠 **Tech Stack**
+
+- Python (Pandas, NumPy, Scikit-learn, Streamlit)  
+- Machine Learning (K-Means, StandardScaler)  
+- Data Visualization (Matplotlib, Seaborn, Plotly, Power BI).  
+  👉 **Xem dashboard:** [Tại đây](https://app.powerbi.com/groups/me/reports/168e6773-e58e-4caf-a039-9e826957393b/9451ba8955f6a5f69939?ctid=5b98a1d4-abc3-42cd-896e-2e1b240dc662&experience=power-bi&bookmarkGuid=a5d3fe0b-58fd-47ea-b490-2153296f0782)  
+- Web Scraping (Playwright)
+
+## 🌟 **Project Impact**
+
+This project helps hotels optimize pricing and marketing strategies, enables customers to make better hotel choices based on quality and budget, and demonstrates an end-to-end data workflow from scraping and preprocessing to database management, visualization, and clustering analysis.
